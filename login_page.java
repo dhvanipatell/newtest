@@ -49,13 +49,13 @@ public class login_page {
     @MethodsData(method_id = "button_3")
     public void click_on_login_button() {
         wait.wait_for_second(2);
-        element.click("login_button_web");
-
+        element.click("login_button");
+        wait.wait_for_second(4);
     }
 
     @MethodsData(method_id = "button_1")
     public void verify_login_button_is_present_on_page() {
-        verify.element_is_present("login_button_web");
+        verify.element_is_present("login_button");
     }
 
 
