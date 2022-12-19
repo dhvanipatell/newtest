@@ -1,11 +1,4 @@
 {
-  "password_password": {
-    "objectGenerate": "generate",
-    "locator_type": "xpath",
-    "element_type": "text_box",
-    "platform": "web",
-    "web_locator": "//input[@placeholder='Password']"
-  },
 
   "legal_terms_link": {
     "objectGenerate": "generate",
